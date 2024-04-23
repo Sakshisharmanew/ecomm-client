@@ -1,0 +1,280 @@
+  /* Styles for the header element */
+  .header {
+    padding:none;
+    background-color:black;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transition: top 0.3s ease;
+    
+  }
+  
+  /* Styles for the top-header element */
+  .top-header {
+    padding: 0;
+    background-color:#f8f9fa;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    transition: transform 0.3s ease;
+    
+  }
+  
+  /* Styles for the fixed-header class (applied when isFixed is true) */
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    /* Add other styles as needed, e.g., background color, box shadow, etc. */
+  }
+  /* Add this CSS for mobile view */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 56px;
+    left: 46%;
+    width:50%;
+    height: 350px;
+    overflow-x: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+  }
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .dropdown-open .navbar-collapse {
+    transform: translateX(0);
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav li {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .navbar-nav li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+  
+    /*currency class css  */
+  .currency_class{
+      width: auto;
+    }
+    
+    /* Style the dropdown arrow icon (you can use a custom icon) */
+    .custom-select::after {
+      content: '▼'; /* Unicode character for a downward-pointing arrow */
+      position: absolute;
+      top: 50%;
+      right: 10px; /* Adjust the position as needed */
+      transform: translateY(-50%);
+      color: #000000; /* Set the arrow color */
+      pointer-events: none; /* Ensure the arrow doesn't interfere with clicking the select box */
+    }
+  .form-control{
+    height: 40px;
+  }
+    .search-form{ /*  */
+      height: 40px;
+      margin-left: -10px;
+      display: inline-block;
+      /* --bs-gutter-x: 1rem; */
+      /* --bs-gutter-y: 1rem; */
+    }
+    .search_name{
+      display:none;
+    }
+    .search_name1{
+      display: inline-flex;
+      margin-right: 30px;
+    }
+  .search_icon{
+    /* height: auto;
+    width: 10px;
+    margin-left: 18px; */
+    display: none;
+  }
+  
+  .nav-item-1{
+    display: none;
+  }
+  
+  
+  /* For screens smaller than 768px (e.g., mobile devices) */
+  @media only screen and (max-width: 768px) {
+    /* Add responsive styles here */
+    .navbar-brand img {
+      width: 100px; /* Adjust the logo size for smaller screens */
+    }
+    .currency_class{ /* currency selector for responsive*/
+      width:auto;
+      align-items: start;
+    }
+    .header_strip { /* top header strip  */
+      padding: 10px 0;
+      text-align: center;
+      height: 50px;
+      margin-right: none;
+  
+    }
+    .search_name{
+      display:inline-flex;
+    }
+    .search_name1{
+      display: none;
+    }
+    .nav-item-1{
+      display: none;
+    }
+  
+  }
+
+
+  
+  
+  /* For screens smaller than 480px (e.g., smaller mobile devices) */
+  @media only screen and (max-width: 580px) {
+    /* Add responsive styles here */
+    .navbar-brand img {
+      width: 80px; /* Further reduce the logo size */
+    }
+  
+    .currency_class{ /* currency selector for responsive*/
+      width: 70px;
+      align-items: start;
+    }
+     .header_strip { /* top header strip  */
+      padding: 10px 0;
+      margin-right: none;
+      text-align: center;
+      height: 40px;
+    }
+      .navbar{
+      padding:none;
+      margin-bottom:-2px;
+      margin-top:3px;
+    /* this is navbar css*/
+  
+    }
+    .navbar-brand img{
+      align-items: start;
+     }
+      .container-fluid{
+      display:inline-block;
+      flex-direction: row;
+    }
+      .navbar-toggler{
+      max-width: 50px;
+      max-height: 55px;
+      margin-left: none;
+      font-size: 15px;
+      display:inline-block;
+      flex-direction:row;
+      }
+      .navbar-toggler-icon{
+        max-width: 30px;
+        display: inline-flex;
+      }
+      .search-form{
+        height: 40px;
+        max-width: 170px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        display: inline-block;
+      }
+      .form-control{
+        display: inline-flex;
+        max-width: 170px;
+        margin-right: none;
+      }
+      .search_icon_name{ /* search name css for responsive */
+        display: none;  
+      }
+      .Search_icon{
+        display: none;
+      }
+      .search_name{
+        display: inline-flex;
+      }
+      .search_name1{
+        display: none;
+      }
+      .nav-item-1{
+        display: inline-block;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left:-25px;
+        margin-right: 8px;
+  
+      }
+      .nav-item-cart{
+        display: none;
+      }
+     
+  }
+  
+
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: flex !important;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .nav-item.dropdown .dropdown-menu {
+    display: none;
+    flex-wrap: wrap;
+  }
+  
+  .nav-item.dropdown .dropdown-menu li {
+    flex: 33.33%;
+  }
+  /* Adjust the styles as needed */
+
+.nav-item {
+  position: relative;
+}
+
+.category-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.subcategory-menu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-top: -10px; /* Adjust the value to position the subcategory menu properly */
+  min-width: 200px;
+  background-color: #fff; /* Background color for the subcategory menu */
+  border: 1px solid #ddd; /* Border color for the subcategory menu */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  z-index: 1;
+}
+
+.subcategory-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.subcategory-menu li {
+  text-align: center;
+}
+
+.dropdown-menu {
+  width: 185px;
+}
+
+/* Add any other styles for your navbar as needed */

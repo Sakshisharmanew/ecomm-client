@@ -1,0 +1,81 @@
+/* BillPreview.css */
+
+/* ... existing styles ... */
+
+#bill-preview {
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  section {
+    width: 100%; /* Full width for company details */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black; 
+  }
+  
+  .product-table {
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .company_details{
+    margin: 0 auto; /* This will center the element horizontally */
+  text-align: left; /* This will center inline content inside the element */
+  margin-top: 20px;
+  }
+ .user_details{
+    margin: 0 auto; /* This will center the element horizontally */
+    text-align: right; /* This will center inline content inside the element */
+    margin-top: 20px;
+}
+  
+  .invoice_hading{
+    margin: 0 auto; /* This will center the element horizontally */
+    text-align: center; /* This will center inline content inside the element */
+  }
+
+
+  
+
+.footer-item{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.admin-footer-logo img{
+    width: 100px;
+    height: auto;
+    margin: 20px auto; /* This will center the element horizontally */
+    text-align: right; /* This will center inline content inside the element */
+}
+
+/* CSS */
+.button-70 {
+  background-image: linear-gradient(#0dccea, #0d70ea);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,sans-serif;
+  font-size: .9em;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

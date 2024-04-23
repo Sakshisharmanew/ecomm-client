@@ -1,0 +1,167 @@
+
+  
+.button-233 {
+    background: #ffffff;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-right: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+
+  }
+  
+  .button-233:hover,
+  .button-233:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  .button-233:active {
+    opacity: .5;
+  }
+
+
+  
+.button-224 {
+  background: #ffffff;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-right: 4px;
+  width: 90%;
+  margin-left: 10px;
+}
+
+.button-224:hover,
+.button-224:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-224:active {
+  opacity: .5;
+}
+
+.center-container {
+  text-align: center;
+}
+
+.tilt-deisgn{
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+  height:auto;
+  padding: 10px;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0px 16px 48px 27px rgba(0,0,0,0.176);
+  margin-bottom: 10px;
+
+}
+
+
+@media (max-width: 768px) {
+  /* On screens smaller than 768px (e.g., mobile), make both col-md-6 elements block */
+  .col-md-6 {
+    display: block !important;
+    width: 100% !important;
+  }
+  .button-224 {
+    background: #ffffff;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .button-224:hover,
+  .button-224:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  .button-224:active {
+    opacity: .5;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 16px 34px 0px rgba(0,0,0,0.176);
+    
+}
+.tilt-deisgn{
+  display: block;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0px 16px 48px 27px rgba(0,0,0,0.176);
+  width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+}

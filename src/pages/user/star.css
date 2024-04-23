@@ -1,0 +1,21 @@
+.star-ratings {
+    display: inline-block;
+    font-size: 30px;
+  }
+  
+  .stars {
+    cursor: pointer;
+    color: #ccc;
+    margin: 3px;
+    padding: 3px;
+    font-size: 24px; /* Set the size of the star */
+    width: 20px; /* Set the width of the star */
+    height: 20px;
+  }
+  
+  .filledd {
+    color: gold;
+    background: none;
+
+  }
+  

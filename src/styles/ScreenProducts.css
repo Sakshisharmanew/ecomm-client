@@ -1,0 +1,37 @@
+  .card-img-top {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(0.9);
+  }
+  
+  .banner-imgs {
+    max-height: 250px;
+    padding: '15px';
+}
+  
+  
+    @media only screen and (max-width: 568px) {
+      .card {
+        width: 100%; 
+        height: 100%; 
+        margin-right: 0;  
+      }
+
+      .col-md-6 {
+        display: block !important;
+        width: 50% !important;
+      }
+      .banner-imgs {
+        max-width:100%;
+        max-height: 150px;
+        padding: '15px';
+    }
+    .card-img-top {
+      height: 400px;
+      width: 100%;
+      overflow: hidden;
+  }
+    }
+  

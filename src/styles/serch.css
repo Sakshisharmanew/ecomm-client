@@ -1,0 +1,301 @@
+/* 
+.flex-wrap{
+  width: 100%;
+} */
+.container{
+  width: 100%;
+ }
+ .container .text-center {
+  width: 100%;
+  background-color: whitesmoke;
+ }
+ .flex-wrap{
+  width: 100%;
+  margin-left: 10px;
+ }
+
+.heading_top{
+  font-size: larger;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 40%;
+}
+.resuts{
+  margin-left:0;
+}
+
+.card {
+  width: 11.6rem;
+  height: auto;
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0px 16px 34px 0px rgba(0,0,0,0.176);
+}
+
+.card-img-tops{
+  height: 140px;
+  width: 100%;
+  padding: 3px;
+  position: relative;
+  overflow: hidden;
+}
+/* .card-body{
+  background: #fff;
+} */
+.card-name-price{
+  font-size: 10px;
+  margin-top: 0;
+}
+span{
+  font-weight: 600;
+  color: black;
+  font-size: 12px;
+
+}
+.card-title{
+  font-size: 10px;
+  display: inline-flex;
+  margin-right: 5px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.card-title h5{
+  font-weight: 600;
+}
+
+.card-text{
+  color:#ffffff;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  font-size: 15px;
+}
+.btn-info{
+  border-radius: 8px 0 8px 0;
+  display: inline-flex;
+  height: 30px;
+  width: 70px;
+  margin: 2px;
+ font-size: 12px;
+}
+
+.btn-dark{
+  border-radius: 8px 0 8px 0;
+  display: inline-flex;
+  height: 30px;
+  width: 72px;
+  margin: 2px;
+  font-size: 8px;
+
+}
+
+
+.button-24 {
+  background: #ffffff;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-right: 4px;
+  width: 45%;
+
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+
+.button-25 {
+  background: #ffffff;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 45%;
+}
+
+.button-25:hover,
+.button-25:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-25:active {
+  opacity: .5;
+}
+
+
+
+
+/* Responsive styles for mobile screens */
+@media only screen and (max-width: 768px) {
+  .heading_top{
+    font-size: larger;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 25%;
+  }
+ .container{
+  width: 100%;
+ }
+ .resuts{
+  margin-left:0;
+}
+.flex-wrap{
+  width: 100%;
+ }
+ .card {
+  width: 45% !important;
+  height: auto;
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 0px 16px 34px 0px rgba(0,0,0,0.176);
+}
+
+ .card-img-tops {
+  height: 100px;
+  width: 100%;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.card-title {
+  font-size: 6px;
+  display: inline-flex;
+  margin-right: 5px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+span {
+  font-weight: 600;
+  color: black;
+  font-size: 9px;
+}
+
+
+.button-24 {
+  background: #ffffff;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 22px;
+  /* border-radius: 9px 0 9px 0; */
+  outline: 0;
+  padding: 2px 4px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin-right: 4px;
+  width: 45%;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+
+.button-25 {
+  background: #ffffff;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 6px;
+  /* border-radius: 9px 0 9px 0; */
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 22px;
+  outline: 0;
+  padding: 2px 4px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 45%;
+
+}
+
+.button-25:hover,
+.button-25:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-25:active {
+  opacity: .5;
+}
+ 
+}
+
+
+

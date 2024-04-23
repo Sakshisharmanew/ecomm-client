@@ -1,0 +1,22 @@
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    width:'9rem';
+  }
+  .page{
+    background-color:  rgba(250, 250, 250, 0.987);
+  
+    /* rgba(0, 0, 0, 0.03) 100%; */
+    /* width: 260px; */
+  }
+  
+  .productImage {
+    width: 9rem;
+    height: 148px !important;
+    padding: 20px;
+}

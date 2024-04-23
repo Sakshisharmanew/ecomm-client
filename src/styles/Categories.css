@@ -1,0 +1,41 @@
+
+
+.card-size {
+  transition: transform 0.3s ease-in-out;
+  height: 150px;
+}
+
+.card-size:hover {
+  transform: scale(1.05);
+}
+
+/* Landscape layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-lg-4 {
+  flex: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-size {
+    transition: transform 0.3s ease-in-out;
+    height: 150px;
+  }
+  
+  .card-size:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Landscape layout */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-lg-4 {
+    flex: 40%;
+  }
+}

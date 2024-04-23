@@ -1,0 +1,577 @@
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+  
+}
+
+.btn_details{
+  width:100%;
+  height: 40px;
+}
+.btn_details h4{
+  margin-left: 38%;
+}
+.similar-products .card {
+  background-color: white;
+  width: 12rem; 
+  height:auto;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 16px 34px 0px rgba(0,0,0,0.176);
+}
+
+.similar-products .card-name-price {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  width: 100%;
+
+}
+.similar-products .buy_now_button{
+  width: 100%;
+}
+
+.similar-products .card-price {
+  color: green;
+  font-weight: bold;
+  /* margin-left: 35px; */
+  font-size: 16px;
+  display: flex;
+
+
+}
+.similar-products button {
+  border-radius: 0;
+  max-width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.similar-products .card-text {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+.similar-products .card-title{
+  font-size: 14px;
+
+}
+.similar-products .offer-name{
+  font-size: 13px;
+  margin-left: 4px;
+}
+.similar-products .card img:hover {
+  transform: scale(0.9);
+}
+.similar-products .card-img-top {
+  height: 200px !important;
+}
+.simmiler{
+  margin-left:40px;
+}
+
+/* Style for the zoomed image */
+.zoomed-image {
+  transform-origin: top left;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+/* Zoom effect when hovering */
+.zoomed-image:hover {
+  transform: scale(1.5); /* You can adjust the scale factor as needed */
+}
+.productImg_det{
+  width: 30px;
+  height: 40px;
+  margin-right: 2px;
+  cursor: pointer;
+  margin: 15px;
+}
+.product_img{
+  width: 600px;
+  height: auto;
+  display: inline-flex;
+
+}
+.relative{
+  position: relative;
+}
+.thumb {
+  width:85%;
+  height:350px;
+  display: block;
+  transition: transform 0.3s ease;
+  margin-left: 20px;
+
+}
+.thumb:hover {
+  transform: scale(0.9);
+}
+.productImg_det{
+  display: inline-flex;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+.productImg_det:hover{
+  transform: scale(0.9);
+}
+.product-details-info{
+  display: inline-flex;
+  margin-top: 0;
+  flex-direction: row;
+    flex-wrap: nowrap;
+}
+/* .top_data{
+  margin-left: 10px;
+  margin-right: 10px;
+} */
+.single-page{
+  width: 100%;
+}
+
+@media only screen and (max-width: 568px) {
+  .top_data{
+    border-bottom: 1px solid black;
+    margin-bottom: 17px;
+  }
+  .btn_details{
+    width:320px;
+    margin-left: 10px;
+    height: 30px;
+  }
+ 
+  .btn_details h4{
+   margin-left: 45%;
+  }
+  .similar-products{
+    margin-left: none;
+  }
+  .similar-products .card {
+    background-color: white;
+    width: 14rem;
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 16px 34px 0px rgba(0,0,0,0.176);
+}
+  .product_img{
+    width: 100;
+    height: auto;
+  }
+  .thumb {
+    width: 100%;
+    height: 330px;
+    display: block;
+    margin-bottom:4px;
+    margin-left: 0;
+  }
+  .productImg_det{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 0;
+  }
+  .responsive-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+  }
+  .similar-products .card-name-price {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 100%;
+    height: 20px;
+  
+  }
+  .simmiler{
+    margin: 0 auto;
+    }
+  .similar-products .buy_now_button{
+    width: 100%;
+  }
+.simmiler .card{
+  margin: 0 auto;}
+  
+.product-details-info{
+  display: inline-flex;
+  margin-top: 0px;
+}
+.similar-products .card-title {
+  font-size: 11px;
+}
+.similar-products .offer-name {
+  font-size: 10px;
+}
+
+.button-005 {
+  background: #ffffff;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 10px;
+  min-height: 24px;
+  outline: 0;
+  padding: 10px 32px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width:100%;
+  height: 50px;
+  margin-bottom: 10px;
+
+}
+
+.button-005:hover,
+.button-005:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-005:active {
+  opacity: .5;
+} 
+.popup {
+  display: none;
+}
+.zoomed-in-image {
+  transform: none !important;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+}
+.color-lable {
+  display: inline-block;
+  width: 30px;
+  height: 12px;
+  border-radius: 50%;
+  /* margin: px; */
+  transition: background-color 0.3s ease-in-out;
+}
+.review-total-pper{
+  display: inline-flex;
+    background: #02b802;
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius:20px;
+}
+
+
+}
+
+
+.responsive-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+.left-side{
+  width: 45%;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-align: center;
+}
+.right-side{
+  width: 45%;
+  text-align: center;
+
+}
+.circle{
+  width: 40px;
+  height: 40px;
+}
+
+
+.button-005 {
+  background: #ffffff;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 10px;
+  min-height: 24px;
+  outline: 0;
+  padding: 7px 32px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width:85%;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+
+}
+
+.button-005:hover,
+.button-005:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-005:active {
+  opacity: .5;
+} 
+
+.button-36 {
+  background: #ffffff;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 30px;
+  outline: 0;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.button-36:hover,
+.button-36:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-36:active {
+  opacity: .5;
+} 
+
+.button-009 {
+  background: #ffffff;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 8px;
+  font-weight: 800;
+  line-height: 10px;
+  min-height: 24px;
+  outline: 0;
+  padding: 10px 32px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width:100%;
+  height: 50px;
+  margin-top: 5px;
+
+}
+
+.button-009:hover,
+.button-009:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-009:active {
+  opacity: .5;
+} 
+
+
+.button-011 {
+  background: #ffffff;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 10px;
+  min-height: 24px;
+  outline: 0;
+  padding: 10px 32px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 30%;
+  height: 40px;
+  margin: 10px auto; /* Center horizontally and add some top margin */
+}
+
+
+.button-011:hover,
+.button-011:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.button-011:active {
+  opacity: .5;
+} 
+
+
+.product-name{
+  font-size: 12px;
+}
+
+
+.popup {
+  position: absolute;
+  padding: 10px;
+  /* border: solid 1px black; */
+  box-shadow: 2px solid rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.zoomed-in-image {
+  transition: transform 0.1s ease-in-out;
+  margin-top: -50px;
+  margin-left: 90px;
+    border: solid 1px black;
+
+}
+
+.zoomed-in-image:hover {
+  transform: scale(3.5);
+}
+
+
+
+/* .form{
+  display: inline-flex;
+} */
+.one{
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: 19px;
+  display: inline-flex;
+}
+.input-section{
+  margin-left: 3px;
+}
+
+.container-color {
+  display: flex;
+}
+
+.color-lable {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+
+.rating-and-review{
+  background-color: aliceblue;
+  padding: 5px;
+  width:auto;
+  margin-left: 20px;
+  /* margin-right: 5px; */
+  border-radius: 10px;
+  display: inline-flex;
+}
+.rating-back{
+  background-color: green;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  margin-right: 10px;
+  color: #a2a2a2;
+
+}
+
+.revieimgaes{
+  height: 50px;
+  width: 50px;
+}
+
+.like-button {
+  display: inline;
+  float: right;
+  cursor: pointer;
+  color: black; /* Initial color */
+}
+
+.like-button.clicked {
+  color: red;
+}
+
+.like-dislike-icon{
+  display: inline;
+  float: right;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+.total-like-count{
+  display: inline;
+  float: right;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+.review-total-pper{
+  display: inline-flex;
+    background: #02b802;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius:20px;
+}
