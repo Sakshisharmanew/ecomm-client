@@ -1,1 +1,6 @@
 
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bqmgexkv/public_html/
+    - /bin/cp * $DEPLOYPATH
